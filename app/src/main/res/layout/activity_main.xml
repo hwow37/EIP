@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#FFFFFF">
+
+    <TextView
+        android:id="@+id/main_word_count"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="90dp"
+        android:textSize="25dp"
+        android:textColor="#000000"/>
+
+    <TextView
+        android:id="@+id/main_word_chk"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="130dp"
+        android:textSize="25dp"
+        android:textColor="#000000"/>
+
+    <TextView
+        android:id="@+id/main_word_unchk"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="170dp"
+        android:textSize="25dp"
+        android:textColor="#000000"/>
+
+    <Button
+        android:id="@+id/listSet"
+        android:layout_width="200dip"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/list"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="55dp"
+        android:gravity="center"
+        android:text="List Set" />
+
+    <Button
+        android:id="@+id/quiz"
+        android:layout_width="200dip"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Quiz"
+        android:layout_below="@+id/list"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:id="@+id/quiz2"
+        android:layout_width="200dip"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Quiz2"
+        android:layout_below="@+id/quiz"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:id="@+id/list"
+        android:layout_width="200dip"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="List"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true" />
+
+</RelativeLayout>

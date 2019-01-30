@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="array_way">
+        <item>최근에 추가된 용어 순서로</item>
+        <item>오래된 용어 순서로</item>
+        <item>용어 오름차순으로</item>
+        <item>용어 내림차순으로</item>
+    </string-array>
+</resources>
